@@ -1,0 +1,41 @@
+create a new repository on the command line using SSH
+
+git@github.com:bonturam/Code_Repository.git
+
+echo "# Code_Repository" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:bonturam/Code_Repository.git
+git push -u origin main
+
+push an existing repository from the command line using SSH
+
+git remote add origin git@github.com:bonturam/Code_Repository.git
+git branch -M main
+git push -u origin main
+
+
+remote.origin.url=git@github.com:bonturam/Code_Repository.git
+
+
+
+create a new repository on the command line using HTTPS
+
+
+https://github.com/bonturam/Code_Repository.git
+
+echo "# Code_Repository" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/bonturam/Code_Repository.git
+git push -u origin main
+
+push an existing repository from the command line using HTTPS
+
+git remote add origin https://github.com/bonturam/Code_Repository.git
+git branch -M main
+git push -u origin main
